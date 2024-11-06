@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../Downloads/Programs"
+		},
+		{
+			"path": "../UI_Tech"
+		},
+		{
+			"path": "../HTML-Practice"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "frontendmentor"
+	}
+}

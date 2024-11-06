@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:15px; ;
+
+}
+
+#container {
+    height: 70vh;
+    width: 50vw;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+button,p,h2{
+   color: hsl(0, 0%, 95%);
+}
+h2{
+    font-family: "Big Shoulders Display", serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+p{
+    font-family:"Lexend Deca", serif ;
+    font-size: 15px;
+    line-height:25px ;
+}
+button{
+    padding: 20px;
+    border-radius: 50px;
+    
+}
+a{
+    text-decoration: none;
+}
+.Sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 20px 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Luxury {
+    background-color: hsl(179, 93%, 18%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
